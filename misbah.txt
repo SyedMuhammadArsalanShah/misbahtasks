@@ -1,0 +1,16 @@
+
+            Console.WriteLine("enter the number and check your how many time your number has been  printed");
+            int check = Convert.ToInt32(Console.ReadLine());
+            int count = 0;// this is a an counter its value will incremnet when value of  'check' is equals to inputvalue
+            for (int i = 1; i <=10; i++)
+            {
+                Console.WriteLine("Input the"+i+"number");//i denote value of iteration 
+                int inputvalue = Convert.ToInt32(Console.ReadLine());
+                if (check==inputvalue)
+                {
+                    count++;//From here, the counter value will increases.
+
+                }
+            }
+            Console.WriteLine("your number" +check+ "has been printed "+count+" times");
+            Console.ReadKey();
